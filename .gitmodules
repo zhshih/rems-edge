@@ -1,3 +1,6 @@
 [submodule "internal/service/dataservice"]
 	path = internal/service/dataservice
 	url = git@github.com:zhshih/dataservice.git
+[submodule "internal/service/collectionservice"]
+	path = internal/service/collectionservice
+	url = git@github.com:zhshih/collectionservice.git
