@@ -16,3 +16,9 @@ gencert:
 .PHONY: genacl
 genacl:
 	cd ${SERVICE_ROOT}/dataservice && $(MAKE) genacl
+
+.PHONY: service
+service:
+	cd ${SERVICE_ROOT}/dataservice && $(MAKE) service
+	cd ${SERVICE_ROOT}/collectionservice && $(MAKE) service
+	cd ${SERVICE_ROOT}/cloudservice && $(MAKE) service
